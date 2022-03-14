@@ -1,0 +1,92 @@
+<head>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body id="cuerpo">
+<input type="radio" name="tamTexto" class="tamTexto" value="12px">12px
+<br>
+<input type="radio" name="tamTexto" class="tamTexto" value="26px">26px
+<br>
+<br>
+<input type="radio" name="colHeroe" class="colHeroe" value="Brown">Color Heroe(Marron)
+<br>
+<input type="radio" name="colHeroe" class="colHeroe" value="Blue">Color Heroe(Azul)
+<br>
+<input type="radio" name="colHeroe" class="colHeroe" value="Purple">Color Heroe(Morado)
+<br>
+<br>
+<input type="radio" name="colFondoH" class="colFondoH" value="Green">Color Fondo Heroe(Verde)
+<br>
+<input type="radio" name="colFondoH" class="colFondoH" value="Pink">Color Fondo Heroe(Rosa)
+<br>
+<input type="radio" name="colFondoH" class="colFondoH" value="Black">Color Fondo Heroe(Negro)
+<br>
+<input type="radio" name="colFondoH" class="colFondoH" value="White">Color Fondo Heroe(Blanco)
+<br>
+<br>
+<input type="radio" name="colFondoE" class="colFondoE" value="Orange">Color Fondo Enemigo(Naranja)
+<br>
+<input type="radio" name="colFondoE" class="colFondoE" value="Yellow">Color Fondo Enemigo(Amarillo)
+<br>
+<input type="radio" name="colFondoE" class="colFondoE" value="Black">Color Fondo Enemigo(Negro)
+<br>
+<input type="radio" name="colFondoE" class="colFondoE" value="White">Color Fondo Enemigo(Blanco)
+<br>
+<br>
+<input type="checkbox" name="cursiva" class="cursiva" id="cursiva" value="Italic">Cursiva
+<br>
+<input type="checkbox" name="negrita" class="negrita" id="negrita" value="Bold">Negrita
+<br>
+<br>
+Anotaciones
+<br>
+<textArea id="textArea" class="textArea" rows="8" cols="35"></textArea>
+<br>
+<br>
+<button id="borrar">Borrar datos guardados</button>
+
+    <div id="heroe" class="heroe">
+    <h1 id="nombre_heroe">Heroe</h1>
+    <h3>Nivel:
+    <lvl id="nivel">-1</lvl>
+    </h3>
+    <h3>Experiencia:
+    <exp id="experiencia">-1</exp>
+    </h3>
+    <h3>Salud:
+    <hp id="saludh">-1</hp>
+    </h3>
+    <h3>Defensa:
+    <armor id="armadura">-1</armor>
+    </h3>
+    <button id="boton_ataque">Atacar</button>
+    <button id="boton_defensa">Defenderse</button>
+    </div>
+    <div id="enemigo" class="enemigo">
+    <h1 id="nombre_enemigo">Enemigo</h1>
+    <h3>Nivel:
+    <lvl id="nivel">-1</lvl>
+    </h3>
+    <h3>Salud:
+    <hp id="salude">-1</hp>
+    </h3>
+    </div>
+
+</body>
+<footer>
+    <script src=personaje.js></script>
+    <script src=enemigo.js></script>
+    <script src=heroe.js></script>
+    <script src=estado.js></script>
+    <script src=preload_fuente.js></script>
+    <script src=preload_color.js></script>
+    <script src=borrado.js></script>
+    <script src=color_fondo_heroe.js></script>
+    <script src=color_fondo_enemigo.js></script>
+    <script src=guardar_nombre.js></script>
+    <script src=cursiva.js></script>
+    <script src=negrita.js></script>
+    <script src=textArea.js></script>
+    <script src=main.js></script>
+    
+</footer>
